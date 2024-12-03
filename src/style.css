@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+#canvas {
+  display: block;
+  width: 1200px;
+  border: 1px solid #000;
+  border-radius: .3rem;
+  margin-bottom: 30px;
+}
+
+#canvas_two {
+  display: block;
+  width: 1200px;
+  border: 1px solid #000;
+  border-radius: .3rem;
+  margin-bottom: 30px;
+}
